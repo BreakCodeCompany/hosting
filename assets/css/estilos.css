@@ -1,3 +1,19 @@
-.justificar{
-    text-align: justify;
+@font-face {
+    font-family: Gilroy;
+    src: url(../font/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family: Galano-Medium;
+    src: url(../font/GalanoGrotesqueAltMedium.otf);
+}
+@font-face {
+    font-family: Galano-Regular;
+    src: url(../font/GalanoGrotesqueAltRegular.otf);
+}
+
+
+
+.nav-link{
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
