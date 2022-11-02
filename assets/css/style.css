@@ -24,7 +24,7 @@ a:hover {
 
 p{
   color: #363636;
-  font-family: 'Galano-Regular', sans-serif;
+  font-family: 'Gotham Book', sans-serif;
 }
 
 h1,
@@ -1502,18 +1502,6 @@ section {
   background: #0880e8;
 }
 
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #0880e8;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -2379,7 +2367,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gotham Book", sans-serif;
   color: #fff;
 }
 
@@ -2441,7 +2429,8 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Gotham Book', sans-serif;
+  color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2457,6 +2446,10 @@ section {
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+}
+
+.footer-contact p{
+  color: #fff;
 }
 
 #footer .copyright {

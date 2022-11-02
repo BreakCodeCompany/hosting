@@ -11,6 +11,11 @@
     src: url(../font/GalanoGrotesqueAltRegular.otf);
 }
 
+@font-face {
+    font-family: Gotham Book;
+    src: url(../font/Gotham-Book.otf);
+}
+
 
 
 .nav-link{
