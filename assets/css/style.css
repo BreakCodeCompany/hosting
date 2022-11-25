@@ -7,6 +7,20 @@ body {
   color: #444444;
 }
 
+body::-webkit-scrollbar {
+  width: 3px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid transparent;  /* creates padding around scroll thumb */
+}
+
 a {
   text-decoration: none;
   color: #054a85;
@@ -1417,6 +1431,7 @@ section {
   position: relative;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
+  height: 800px;
 }
 
 .pricing h3 {
@@ -1483,10 +1498,25 @@ section {
 }
 
 .pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
+  position: absolute;
+  bottom: 0;
+  margin: 20px 0px 0px -20px;
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
+  width: 100%;
+  
+
+}
+
+.pricing .sub-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 0 110px;
+  
+
 }
 
 .pricing .btn-buy {
